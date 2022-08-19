@@ -44,8 +44,8 @@ ui <- fluidPage(
                       c("PCA" = "PCA",
                         "Kalman filter" = "KF",
                         "Kalman smoother" = "KS",
-                        "Expectation Maximization" = "EM",
-                        "dynfactoR library" = "package_test"
+                        "Expectation Maximization" = "EM"#,
+                        # "dynfactoR library" = "package_test"
                         )),
 
           selectInput("thresh_imputation", "Threshold for imputation of missing values (preliminary step for PCA)",
