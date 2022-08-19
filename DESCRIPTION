@@ -1,0 +1,16 @@
+Package: nowcastapp
+Title: Shiny app for nowcasting the european industrial production using the emDFM package
+Version: 0.0.0.9000
+Authors@R: 
+    person("Alessandro", "Ciancetta", , "alessandro.ciancetta@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-9783-5551"))
+Description: The nowcastapp allows to easily visualize and evaluate the forecasts produced by the Dynamic Factor Model, as estimated by the emDFM package. The user can set up the model hyperparameters and choose the country of interest. The app also allows to add the high-frequency Google Mobility Index to exploit mobility data to improve the forecast accuracy. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    emDFM,
+    eurostat,
+    magrittr,
+    shiny
