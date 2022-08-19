@@ -14,3 +14,5 @@ Imports:
     eurostat,
     magrittr,
     shiny
+URL: https://github.com/aciancetta/nowcastapp
+BugReports: https://github.com/aciancetta/nowcastapp/issues
