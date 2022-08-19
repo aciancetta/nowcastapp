@@ -30,8 +30,7 @@ ui <- fluidPage(
                       c("Italy" = "IT",
                         "France" = "FR",
                         "Germany" = "DE",
-                        "Spain" = "ES",
-                        "Greece" = "GR")),
+                        "Spain" = "ES")),
 
 
           checkboxGroupInput("mobility_indexes", "Mobility indexes:",
