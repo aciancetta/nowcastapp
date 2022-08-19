@@ -6,7 +6,9 @@
 #' @export
 #'
 app <- function(name = "nowcast_gmi", ...) {
-  appDir <- system.file(paste0("apps/", name), package = "nowcastapp")
-  if (appDir == "") stop("The shiny app ", name, " does not exist")
+  appDir <- system.file(paste0("apps/", name, ".R"), package = "nowcastapp")
+  if (appDir == ""){
+    stop("The shiny app ", name, " does not exist")
+  }
   shiny::runApp(appDir, ...)
 }
