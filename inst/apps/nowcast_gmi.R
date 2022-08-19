@@ -128,7 +128,7 @@ server <- function(input, output, session) {
     r <- input$r
     p <- input$p
     thresh_imputation <- as.numeric(input$thresh_imputation)
-    thresh <- 0.001
+    thresh <- 0.01
 
     withProgress(message = "Data fetching and model fitting",{
 
