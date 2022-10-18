@@ -41,6 +41,6 @@ nowcastapp::app()
 
 # Credits
 
-The package and the app have been developed during my internship at
+The package and the app have been developed as part of an internship at
 [IRPET](http://www.irpet.it/) (Regional Institute for Economic Planning
 of Tuscany).
